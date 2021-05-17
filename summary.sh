@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 
 # get summary for example sales data
 
