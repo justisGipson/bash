@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# runs everyday to clean Download/ and Trash/
+
+# path to notifier
+motifier=/usr/local/bin/terminal-notifier
+# path to cleanit
+cleanit=/Users/jgipson/bin/cleanit
+
+download_notice=$(cleanit)
+
+trash_notice=$(cleanit -t trash)
+
+$notifier -message "$download_notice $trash_notice"
