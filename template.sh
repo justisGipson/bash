@@ -191,16 +191,16 @@ BASH_SOURCE # An array and index[0] is the current script.
 # ENV Variables
 #
 # The most common env variables are,
-# BASHPID: ProcessID
-# BASHOPTS: Parameters
-# HOME: current user home directory
-# HOST
-# IFS: delimiter, default is space
-# PS1: Shell prompt
-# PWD: current working directory
-# USER: current user name
-# UID: current userid
-# SHELLOPTS: current set command params
+BASHPID # ProcessID
+BASHOPTS # Parameters
+HOME # current user home directory
+HOST # host port
+IFS # delimiter, default is space
+PS1 # Shell prompt
+PWD # current working directory
+USER # current user name
+UID # current userid
+SHELLOPTS # current set command params
 #
 # && and || between multiple commands
 # When executing shell scripts, we often need to execute multiple
