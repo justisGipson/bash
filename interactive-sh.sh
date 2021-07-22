@@ -19,6 +19,7 @@ fn_goodmorning() { echo; echo "Good morning."; }
 fn_bye() { echo "Bye bye."; exit 0; }
 fn_fail() { echo "Wrong option." exit 1; }
 
+### MENU FUNCTIONS ###
 
 sub-submenu() {
     echo -ne "
