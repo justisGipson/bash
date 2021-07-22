@@ -146,7 +146,7 @@ printf "# %s \n
 ## Usage\n\n
 ## Features\n\n
 ## Reference\n\n
-##Author\n\n
+## Author\n\n
 ## License
 
 Please see license.txt\n" "$repo" > README.md
