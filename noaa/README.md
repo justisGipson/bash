@@ -2,6 +2,8 @@
 
 give all scripts permissions to do things
 
+Might have to adjust some commands depending on your OS
+
 `chmod +x *.sh`
 
 then step by step:
@@ -22,7 +24,7 @@ then step by step:
 
 8. `$ cut -d' ' -f1,5 us_stations.txt > us_stations.txt.tmp; mv us_stations.txt.tmp us_stations.txt;` - only get station & code
 
-9. `$ sed -i s/' '/,/g us_stations.txt` - change spaces to commas
+9. `$ sed -i '' s/' '/,/g us_stations.txt` - change spaces to commas
 
 10. run `./station_state.sh` - replace station codes with state
 
